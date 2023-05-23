@@ -4,6 +4,7 @@ from engine.WilloughbyEngine import WilloughbyEngine
 from Battery.Nubbing import Nubbing
 from Battery.Spindler import Spindler
 from car import Car
+from tire import carrigen_tire,Octoprime_tire
 class CarFactory:
     def create_calliope(current_date, last_service_date, current_mileage, last_service_mileage):
         engine=CapuletEngine(current_mileage, last_service_mileage)
